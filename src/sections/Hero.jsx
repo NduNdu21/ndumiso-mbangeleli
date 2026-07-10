@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const NAME = "Christian";
+const NAME = "Ndumiso Mbangeleli";
 const ROLE = "Software Developer";
 
 export default function Hero() {
@@ -30,14 +30,14 @@ export default function Hero() {
             <span className="w-2.5 h-2.5 rounded-full bg-amber" />
             <span className="w-2.5 h-2.5 rounded-full bg-text-dim" />
             <span className="ml-2 text-xs text-text-dim">
-              guest@portfolio: ~
+              ndumiso@portfolio: ~
             </span>
           </div>
 
           {/* Body */}
           <div className="px-6 py-10 min-h-80">
             <p className="text-base">
-              <span className="text-amber">guest@portfolio:~$</span> {typed}
+              <span className="text-amber">ndumiso@portfolio:~$</span> {typed}
               {typed.length < fullText.length && (
                 <span className="blink-cursor" />
               )}
