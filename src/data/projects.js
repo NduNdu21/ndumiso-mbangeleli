@@ -17,6 +17,15 @@ const projects = [
     github: "https://github.com/NduNdu21/Team-Project-2024",
     live: "",
   },
+  {
+    id: "project-three",
+    name: "Calculator App",
+    description:
+      "A simple calculator app built with JavaScript, allowing users to perform basic arithmetic operations with a clean and intuitive interface.",
+    stack: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/NduNdu21/calculator",
+    live: "https://ndundu21.github.io/calculator/",
+  }
 ];
 
 export default projects;
