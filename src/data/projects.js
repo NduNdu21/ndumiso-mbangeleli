@@ -1,20 +1,20 @@
 const projects = [
   {
     id: "project-one",
-    name: "project-one",
+    name: "EpiskopOS",
     description:
-      "Short description of what this project does and the problem it solves.",
-    stack: ["React", "Node", "PostgreSQL"],
-    github: "https://github.com/yourusername/project-one",
-    live: "",
+      "A web-based management platform for small venues — built for churches, community halls, and similar organisations to plan events, coordinate volunteers, and streamline team communication.",
+    stack: ["React", "Node", "Express", "PostgreSQL", "Socket.IO"],
+    github: "https://github.com/NduNdu21/EpiskopOS",
+    live: "https://episkop-os.vercel.app/",
   },
   {
     id: "project-two",
-    name: "project-two",
+    name: "WoodLess",
     description:
-      "Short description of what this project does and the problem it solves.",
-    stack: ["Python", "Flask"],
-    github: "https://github.com/yourusername/project-two",
+      "Developed using Laravel, WoodLess is an E-commerce website intended to facilitate the online transactions and sales of an eco-friendly furniture company.",
+    stack: ["Laravel", "PHP", "MySQL", "JavaScript"],
+    github: "https://github.com/NduNdu21/Team-Project-2024",
     live: "",
   },
 ];

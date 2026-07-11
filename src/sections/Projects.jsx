@@ -5,7 +5,7 @@ export default function Projects() {
     <section id="projects" className="py-20">
       <div className="max-w-215 mx-auto px-6">
         <p className="text-amber">
-          guest@portfolio:~$ <span className="text-text">ls ./projects</span>
+          ndumiso@portfolio:~$ <span className="text-text">ls ./projects</span>
         </p>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2">
