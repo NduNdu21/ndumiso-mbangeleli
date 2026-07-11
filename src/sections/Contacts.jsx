@@ -1,7 +1,7 @@
 const LINKS = [
-  { label: "email", href: "mailto:ndumisobm@icloud.com" },
-  { label: "github", href: "https://github.com/NduNdu21" },
-  { label: "linkedin", href: "https://www.linkedin.com/in/ndumiso-mbangeleli-742a51274/" },
+  { label: "ndumisobm@icloud.com", href: "mailto:ndumisobm@icloud.com" },
+  { label: "github: NduNdu21", href: "https://github.com/NduNdu21" },
+  { label: "linkedin: Ndumiso Mbangeleli", href: "https://www.linkedin.com/in/ndumiso-mbangeleli-742a51274/" },
 ];
 
 export default function Contact() {
