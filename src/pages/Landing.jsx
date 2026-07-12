@@ -1,7 +1,7 @@
 import Hero from "../sections/Hero";
 import About from "../sections/About";
 import Projects from "../sections/Projects";
-import Contact from "../sections/Contact";
+import Contacts from "../sections/Contacts";
 
 export default function Landing() {
   return (
@@ -9,7 +9,7 @@ export default function Landing() {
       <Hero />
       <About />
       <Projects />
-      <Contact />
+      <Contacts />
     </>
   );
 }

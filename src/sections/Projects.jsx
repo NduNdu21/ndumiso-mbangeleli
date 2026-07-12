@@ -2,7 +2,7 @@ import projects from "../data/projects";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-12">
       <div className="max-w-215 mx-auto px-6">
         <p className="text-amber">
           ndumiso@portfolio:~$ <span className="text-text">ls ./projects</span>

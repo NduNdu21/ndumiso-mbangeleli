@@ -6,7 +6,7 @@ const LINKS = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-12">
       <div className="max-w-215 mx-auto px-6">
         <p className="text-amber">
           ndumiso@portfolio:~$ <span className="text-text">cat ./contact.txt</span>

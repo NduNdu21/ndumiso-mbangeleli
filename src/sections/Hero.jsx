@@ -20,7 +20,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center py-10"
+      className="min-h-[85vh] flex items-center py-10"
     >
       <div className="max-w-215 mx-auto px-6 w-full">
         <div className="border border-border rounded-sm bg-bg-raised shadow-[0_20px_60px_rgba(0,0,0,0.6)] overflow-hidden">
