@@ -1,4 +1,4 @@
-import { SiReact, SiVite, SiTailwindcss, SiJavascript, SiGit, SiVercel, SiPython, SiJava, SiPostgresql, SiLaravel, SiFigma,
+import { SiReact, SiVite, SiTailwindcss, SiJavascript, SiGit, SiVercel, SiPython, SiOpenjdk, SiPostgresql, SiLaravel, SiFigma,
     SiExpress, SiNodedotjs } from 'react-icons/si';
 
 export const skills = [
@@ -9,7 +9,7 @@ export const skills = [
   { name: 'Git', icon: SiGit },
   { name: 'Vercel', icon: SiVercel },
   { name: 'Python', icon: SiPython },
-  { name: 'Java', icon: SiJava },
+  { name: 'Java', icon: SiOpenjdk },
   { name: 'PostgreSQL', icon: SiPostgresql },
   { name: 'Laravel', icon: SiLaravel },
   { name: 'Figma', icon: SiFigma },
