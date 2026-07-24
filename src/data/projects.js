@@ -25,6 +25,14 @@ const projects = [
     stack: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/NduNdu21/calculator",
     live: "https://ndundu21.github.io/calculator/",
+  },
+  {
+    id: "project-four",
+    name: "Bursary Match",
+    description:
+      "A desktop Java application that matches South African students to bursaries and scholarships they qualify for, based on their academic results. Bursary providers can list, edit, and manage their own offers.",
+    stack: ["Java", "PostgreSQL", "JavaSwing"],
+    github: "https://github.com/NduNdu21/bursary-match",
   }
 ];
 
