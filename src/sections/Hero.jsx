@@ -44,7 +44,7 @@ export default function Hero() {
             </p>
 
             {typed.length === fullText.length && (
-              <div className="mt-6 animate-[reveal_0.4s_ease_both]">
+              <div className="mt-6 animate-[reveal_1s_ease_both]">
                 <h1 className="text-[clamp(3rem,9vw,5.5rem)] leading-none">
                   {NAME}
                 </h1>
