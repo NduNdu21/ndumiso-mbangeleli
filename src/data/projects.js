@@ -33,6 +33,14 @@ const projects = [
       "A desktop Java application that matches South African students to bursaries and scholarships they qualify for, based on their academic results. Bursary providers can list, edit, and manage their own offers.",
     stack: ["Java", "PostgreSQL", "JavaSwing"],
     github: "https://github.com/NduNdu21/bursary-match",
+  },
+  {
+    id: "project-five",
+    name: "Ecom Store",
+    description:
+      "A full-stack e-commerce application built with Next.js and Supabase, allowing users to browse products, add items to their cart, and complete purchases securely.",
+    stack: ["Next.js", "Supabase", "Tailwind CSS"],
+    github: "https://github.com/NduNdu21/ecomstore",
   }
 ];
 
