@@ -58,13 +58,13 @@ export default function Hero() {
                     { href: "#projects", label: "./projects" },
                     { href: "#about", label: "./about" },
                     { href: "#contact", label: "./contact" },
-                    { href: "/blog", label: "./blog" },
-                    { href: "/CV.docx", label: "./resume", download: true },
+                    { href: "/CV.pdf", label: "./resume", external: true },
                   ].map((link) => (
                     <a
                       key={link.href}
                       href={link.href}
-                      download={link.download}
+                      target={link.external ? "_blank" : undefined}
+                      rel={link.external ? "noreferrer" : undefined}
                       className="border-b-0 before:content-['>_'] before:text-amber-dim"
                     >
                       {link.label}

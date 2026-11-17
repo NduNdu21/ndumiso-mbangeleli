@@ -9,14 +9,17 @@ export default function About() {
         </p>
 
         <div className="mt-8 border border-border rounded-sm bg-bg-raised p-6">
-          <p className="text-text-dim leading-relaxed">
-            Computer Science graduate from Aston University Birmingham. I build full-stack web applications using React, Node.js/Express, and PostgreSQL. My most recent project is EpiskopOS, a Progressive Web App for church event management.
-
-            I have frontend development experience from internships at YCX and WoodLess, and have also worked in customer-facing roles including door-to-door sales and hospitality. I received an Industry Recognition Award from the Aston University CS Industry Club.
-
-            Currently looking for graduate software engineering roles where I can contribute across the full stack.
-
-          </p>
+          <div className="flex flex-col gap-4 text-text-dim leading-relaxed">
+            <p>
+              Computer Science graduate from Aston University Birmingham. I build full-stack web applications using React, Node.js/Express, and PostgreSQL. My most recent project is EpiskopOS, a Progressive Web App for church event management.
+            </p>
+            <p>
+              I have frontend development experience from internships at YCX and WoodLess, and have also worked in customer-facing roles including door-to-door sales and hospitality. I received an Industry Recognition Award from the Aston University CS Industry Club.
+            </p>
+            <p>
+              Currently looking for graduate software engineering roles where I can contribute across the full stack.
+            </p>
+          </div>
 
           <div className="mt-6">
             <p className="text-amber-dim text-sm mb-2">stack/</p>
