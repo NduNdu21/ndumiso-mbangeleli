@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const NAME = "Ndumiso Mbangeleli";
-const ROLE = "Software Developer";
+const ROLE = "Full-Stack Software Developer";
 
 export default function Hero() {
   const [typed, setTyped] = useState("");
