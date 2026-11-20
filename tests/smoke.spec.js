@@ -38,11 +38,21 @@ test("content is in the served HTML without JavaScript", async ({ request }) => 
   expect(html).toContain("mailto:ndumisobm@icloud.com");
 });
 
-test("blog page is pre-rendered", async ({ request }) => {
+test("blog page is pre-rendered and kept out of search results", async ({ request }) => {
   const response = await request.get("/blog");
+  const html = await response.text();
 
   expect(response.status()).toBe(200);
-  expect(await response.text()).toContain("Coming soon.");
+  expect(html).toContain("Coming soon.");
+  expect(html).toContain('<meta name="robots" content="noindex" />');
+  expect(await (await request.get("/")).text()).not.toContain("noindex");
+});
+
+test("blog post URLs show the not-found page", async ({ page }) => {
+  const response = await page.goto("/blog/some-post");
+
+  expect(response.status()).toBe(404);
+  await expect(page.getByText("cd: no such file or directory: /blog/some-post")).toBeVisible();
 });
 
 test("unknown paths return a real 404 with the not-found page", async ({ page }) => {
