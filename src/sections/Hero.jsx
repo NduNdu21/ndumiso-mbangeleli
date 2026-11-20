@@ -43,36 +43,36 @@ export default function Hero() {
               )}
             </p>
 
-            {typed.length === fullText.length && (
-              <div className="mt-6 animate-[reveal_1s_ease_both]">
-                <h1 className="text-[clamp(3rem,9vw,5.5rem)] leading-none">
-                  {NAME}
-                </h1>
-                <p className="mt-2 text-amber-dim text-lg">{ROLE}</p>
-                <p className="mt-4 max-w-[46ch] text-text-dim">
-                  I build things for the web. Scroll down, or jump straight
-                  to the projects.
-                </p>
-                <nav className="mt-6 flex flex-wrap gap-6">
-                  {[
-                    { href: "#projects", label: "./projects" },
-                    { href: "#about", label: "./about" },
-                    { href: "#contact", label: "./contact" },
-                    { href: "/CV.pdf", label: "./resume", external: true },
-                  ].map((link) => (
-                    <a
-                      key={link.href}
-                      href={link.href}
-                      target={link.external ? "_blank" : undefined}
-                      rel={link.external ? "noreferrer" : undefined}
-                      className="border-b-0 before:content-['>_'] before:text-amber-dim"
-                    >
-                      {link.label}
-                    </a>
-                  ))}
-                </nav>
-              </div>
-            )}
+            {/* Always rendered so the name is in the pre-rendered HTML; the
+                CSS delay reveals it as the typing finishes, even without JS. */}
+            <div className="mt-6 animate-[reveal_1s_ease_0.6s_both]">
+              <h1 className="text-[clamp(3rem,9vw,5.5rem)] leading-none">
+                {NAME}
+              </h1>
+              <p className="mt-2 text-amber-dim text-lg">{ROLE}</p>
+              <p className="mt-4 max-w-[46ch] text-text-dim">
+                I build things for the web. Scroll down, or jump straight
+                to the projects.
+              </p>
+              <nav className="mt-6 flex flex-wrap gap-6">
+                {[
+                  { href: "#projects", label: "./projects" },
+                  { href: "#about", label: "./about" },
+                  { href: "#contact", label: "./contact" },
+                  { href: "/CV.pdf", label: "./resume", external: true },
+                ].map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    target={link.external ? "_blank" : undefined}
+                    rel={link.external ? "noreferrer" : undefined}
+                    className="border-b-0 before:content-['>_'] before:text-amber-dim"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </nav>
+            </div>
           </div>
         </div>
       </div>
