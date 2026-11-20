@@ -11,7 +11,7 @@ export default function Projects() {
           ndumiso@portfolio:~$ <span className="text-text">ls ./projects</span>
         </p>
 
-        <div className="mt-8 grid gap-6 sm:grid-cols-2">
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 items-start">
           {featured.map((project) => (
             <div
               key={project.id}
